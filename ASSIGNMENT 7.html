@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title> Assignment 7(Forms)</title>
+            
+    </head>
+    <body>
+        <h1> Chapter# 7-FORMS</h1>
+        <form action="http:/www.examples.com/login.php" method="POST">
+            <fieldset>
+                <legend> Your Details:</legend>
+            <p> Name:
+                    <input type="text" name="Name" size="30" maxlength="30">  
+            </p>
+            <p>
+                Email:
+                <input type="text" name="email address" size="30" maxlength="30">
+
+            </p>
+        
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend> Your Review:</legend>
+            <p>How did you hear about us?
+            <select name="Platform">
+                <option value="Google"> Google</option>
+                <option value="Youtube">Youtube</option>
+                <option value="Facebbook">Facebbook</option>
+                <option value="Yahoo">Yahoo</option>
+            
+            </select>
+            </p>
+            
+            <p>
+                    Would you visit again?
+                    <br/>
+                    <input type="radio" name="Would you visit again?"value="Y">Yes
+                    <input type="radio" name="Would you visit again?" value="N">No
+                    <input type="radio" name="Would you visit again?" value="Mb">Maybe
+            </p>
+            <p>Comments:</p>
+            <textarea name="comments" Enter your comment...... rows="7" cols="30"> </textarea>
+            <br />
+            <p>
+                <input type="checkbox">Sign me up for email updates
+            </p>
+            <p>
+                <input type="submit" value="Submit Review">
+            </p>
+            
+        </fieldset>
+            
+        </form>
+
+
+
+
+    </body>
+    </html>
